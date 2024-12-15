@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     circle.style.marginLeft = switchTheme ? "21px" : "2px";
     circle.style.backgroundColor = switchTheme ? "white" : "var(--dark-color)";
-    stylesheet.href = switchTheme ? "/index.css" : "/lightMode.css";
+    stylesheet.href = switchTheme ? "index.css" : "lightMode.css";
 
     localStorage.setItem("circleMl", circle.style.marginLeft);
     localStorage.setItem("circleBg", circle.style.backgroundColor);
