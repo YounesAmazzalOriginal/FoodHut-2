@@ -1,0 +1,56 @@
+#stylesheet {
+  transition: all 0.4s;
+}
+.theme-btn {
+  position: relative;
+  right: 10px;
+  background-color: var(--red-color);
+  border-radius: 100px;
+  width: 40px;
+  height: 22px;
+}
+.theme-btn .circle {
+  background-color: var(--dark-color);
+  color: white;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  /* transition: all 0.4s; */
+  transition: all 0.4s ease;
+  margin-inline: 2px;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  /* @media (min-width: 1024px) { */
+  nav {
+    background-color: transparent !important;
+  }
+}
+
+.header-suggested-food-container {
+  animation: infinite alternate linear suggested-food-move 2s;
+}
+@keyframes suggested-food-move {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0.95;
+  }
+}
+
+.header-suggested-customer-container {
+  animation: infinite alternate linear suggested-customer-move 2s;
+}
+@keyframes suggested-customer-move {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0.95;
+  }
+}
