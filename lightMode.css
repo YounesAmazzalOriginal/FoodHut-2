@@ -6,11 +6,11 @@ html {
 }
 @font-face {
   font-family: sofiaLight;
-  src: url(/Assets/Font/Sofia\ Pro\ Light\ Az.otf);
+  src: url(Assets/Font/Sofia\ Pro\ Light\ Az.otf);
 }
 @font-face {
   font-family: sofiaMedium;
-  src: url(/Assets/Font/Sofia\ Pro\ Bold\ Az.otf);
+  src: url(Assets/Font/Sofia\ Pro\ Medium\ Az.otf);
 }
 * {
   font-family: sofiaLight;
